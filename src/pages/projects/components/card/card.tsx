@@ -1,8 +1,6 @@
 import { Line, Space } from "@styles/global";
 import * as S from "./styles";
-import imgTeste from "@assets/svg/imgTeste.svg";
 import { Flag } from "../flag/flag";
-import { useProjects } from "@hooks/useProjects/use-projects";
 import { ProjectsObj } from "@hooks/useProjects/types";
 
 type CardProps = {
@@ -29,7 +27,7 @@ export const Card = ({ tags, data }: CardProps) => {
         <Line />
       </S.WapperInfo>
 
-      <S.Button onClick={() => window.open(`https://${data.link}`, "_blank")}>
+      <S.Button onClick={() => window.open(`${data.link}`, "_blank")}>
         see live project
       </S.Button>
     </S.BoxCard>
