@@ -16,7 +16,7 @@ export const Filter = () => {
       <MultipleSelect
         onchange={(event, value) => setTags(value)}
         iconStart={<IconFilter />}
-        placeholder="Filter ssssby technologies"
+        placeholder="Filter by technologies"
         renderValue={(selected) => <ValueFilter selected={selected} />}
       >
         {ListFilter.map((item, index) => {
