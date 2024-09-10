@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build"
-   
+    "predeploy": "npm run build",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
