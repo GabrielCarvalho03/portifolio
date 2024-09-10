@@ -14,7 +14,7 @@ export const Home = () => {
       <Header />
       <S.Wapper>
         <S.WapperText>
-          <S.Text>ReactJS</S.Text>
+          <S.Text>Hi!</S.Text>
           <S.Title>My name is Gabriel !!</S.Title>
 
           <S.BopxTypical>
